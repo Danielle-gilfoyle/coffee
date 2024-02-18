@@ -1,0 +1,218 @@
+body {
+    background-color: #F2F2F2;
+  }
+  
+  ul{
+    margin:0; 
+    padding:0; 
+  }
+  
+  p
+  {
+    background-color:#F2F2F2; 
+    font-family: 'Lato', sans-serif;
+    line-height: 1.8;
+    margin-right: 10rem;  
+    margin-left: 10rem;
+    
+  }
+  .textbox{
+    padding:30px;
+    margin-left:2px; 
+    margin-right: 30px;
+    background-color:#F2F2F2; 
+    font-family: 'Lato', sans-serif;
+    line-height: 1.8;
+    margin-right: 10rem;  
+    margin-left: 1rem;
+  
+  }
+  
+  h1 {
+    color:#082B59; 
+    margin-right: 20rem;  
+    margin-left: 0rem;
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+  }
+
+  h3{
+    color:#082B59; 
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+    font-size: 26px;
+
+  }
+
+  div {
+    text-align: left;
+  }
+  
+  h2{
+    color:#082B59; 
+    margin-right: 30rem;  
+    margin-left: 30rem;
+    font-weight: bold;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family:'Poppins', sans-serif;
+    display: inline-block;
+  }
+
+  h4{
+    color:#082B59; 
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+  }
+
+
+  nav ul
+  { 
+    list-style-type: center;
+    background-color: #082B59;
+    text-align: center;
+    font-family: "Lato", serif;
+    color: #ffffff;
+  
+  }
+  
+  nav li {
+    list-style-type: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    display: inline-block;
+    margin-right: 178.9px;
+    margin-left: 178.9px;
+    margin-bottom: 20px;
+    padding: 0px;
+  
+  }
+  
+  nav{
+    padding-top: 1rem;
+    display: float;
+    background-color: #082B59;
+    text-align: center;
+    font-family: "Lato", serif;
+    line-height: 1.5;
+    color: #ffffff;
+    justify-content: center;
+  }
+  
+  
+  b{
+    border: 0.5px solid #59331D;
+    border-radius: 10px;
+    border-width: 10px;
+    width: 90px;
+    height: 25px;
+    background-color: #59331D;
+    display: block;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 1rem;
+    margin-right: 10rem;  
+    margin-left: 0rem;
+    padding-top: .3rem;
+    list-style: none;
+    font-weight: normal;
+  }
+  
+  
+  .center {
+    margin-left: 500px;
+    margin-right:500px;
+    margin-bottom: 0px;
+    width: 10%;
+    
+  }
+  
+  img.left{ 
+    Margin-top: 80px;
+    border-radius: 20px 20px 20px 20px;
+  
+  }
+  
+  h2{
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   font-size: 12px;
+   font-weight: normal;
+  }
+  
+  html, body, div, p, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 1000;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+  }
+  
+  /* This class is applied to the containing div <div class="nav"> and is used to set the background color and height of the navbar */
+  .nav {
+    background: #000;
+    height: 60px; /* set same as height & line-height below */
+  }
+  
+  /* This rule centers the nav items verticaly in the bar with the height and line height properties. Spacing between the nav items is controlled by setting right and left padding.  */
+  .nav li {
+    display: inline-block; 
+    text-align: center;
+    list-style: none;
+    height: 60px; /* should be the same as line-height */
+    line-height: 60px; /* should be the same as height */
+    padding: 0 40px; 
+    /* "0" sets top and bottom padding to none */
+  }
+  
+  .nav {
+    text-align: center;
+     background-color: #082B59;
+  
+  }
+  
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .devicer {
+    width: auto;
+    display: block;
+    height: 10px;
+    background-color: #D98555;
+    border-bottom: 50px solid #082B59;
+  }
+  
+  .mainbody{
+    display: grid;
+    grid-template-columns:1fr 3fr 2fr;
+    grid-gap: 20px; 
+  }
+  
+  .line{ 
+    width: auto;
+    display: block;
+    height: 10px;
+    background-color: #D98555;
+  }
+
+  @media (max-width: 900px) {
+    .center {
+      /* give the logo its own line, remove the margin, and center it. Remember that flexbox will center the logo BOX, but the CONTENTS must also be centered with text-align */
+      flex-basis: 100%;
+      margin: 0;
+      text-align: center;
+    }
+    @= (max-width: 900px){ 
+        flex-basis: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
